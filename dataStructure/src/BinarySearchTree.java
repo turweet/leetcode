@@ -59,7 +59,7 @@ public class BinarySearchTree<Key extends Comparable, Value> {
         }
         int comp = node.key.compareTo(key);
         if (comp < 0) {
-            node.right = put((node.right, key, value);
+            node.right = put(node.right, key, value);
         } else if (comp > 0) {
             node.left = put(node.left, key, value);
         } else {
@@ -68,6 +68,39 @@ public class BinarySearchTree<Key extends Comparable, Value> {
         node.size = size(node.right) + size(node.right) + 1;
         return root;
 
+    }
+
+    public Node max(Node node) {
+        if (node.right != null) {
+            return max(node.right);
+        } else {
+            return node;
+        }
+    }
+
+    public Node min(Node node) {
+        if (node.left != null) {
+            return min(node.left);
+        } else {
+            return node;
+        }
+    }
+
+    /**
+     * 在二叉树root中找出小于等于target的最大值
+     * @param root
+     * @param target
+     * @return
+     */
+    public Node floor(Node root, Node target) {
+        int comp = root.key.compareTo(target.key);
+        if (comp > 0) {
+            if ()
+        } else if (comp < 0) {
+
+        } else {
+            return root;
+        }
     }
 
 }
