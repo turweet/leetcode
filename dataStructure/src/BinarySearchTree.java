@@ -1,5 +1,3 @@
-import javax.xml.bind.ValidationEvent;
-
 public class BinarySearchTree<Key extends Comparable, Value> {
     private Node root;
 
@@ -88,16 +86,50 @@ public class BinarySearchTree<Key extends Comparable, Value> {
 
     /**
      * 在二叉树root中找出小于等于target的最大值
+     *
      * @param root
      * @param target
      * @return
      */
     public Node floor(Node root, Node target) {
+        if (root == null) {
+            return null;
+        }
         int comp = root.key.compareTo(target.key);
-        if (comp > 0) {
-            if ()
-        } else if (comp < 0) {
+        if (comp > 0) { // root大于target
+            return floor(root.left, target);
+        } else if (comp < 0) { // root小于target
+            Node t = floor(root.right, target);
+            if (t != null) {
+                return t;
+            } else {
+                return root;
+            }
+        } else {
+            return root;
+        }
+    }
 
+    /**
+     * 在二叉树root中找出大于等于target的最小值
+     * @param root
+     * @param target
+     * @return
+     */
+    public Node celling(Node root, Node target) {
+        if (root == null) {
+            return null;
+        }
+        int comp = root.key.compareTo(target);
+        if (comp > 0) {
+            Node n = celling(root.left, target);
+            if (n != null) {
+                return n;
+            } else {
+                return root;
+            }
+        } else if (comp < 0) {
+            return celling(root.right, target);
         } else {
             return root;
         }
