@@ -1,3 +1,5 @@
+import java.security.InvalidParameterException;
+
 public class BinarySearchTree<Key extends Comparable, Value> {
     private Node root;
 
@@ -112,6 +114,7 @@ public class BinarySearchTree<Key extends Comparable, Value> {
 
     /**
      * 在二叉树root中找出大于等于target的最小值
+     *
      * @param root
      * @param target
      * @return
@@ -132,6 +135,50 @@ public class BinarySearchTree<Key extends Comparable, Value> {
             return celling(root.right, target);
         } else {
             return root;
+        }
+    }
+
+    /**
+     * 找出排名为k的键
+     *
+     * @return
+     */
+    public Node select(Node root, int k) {
+        if (size(root) < k) {
+            throw new InvalidParameterException("k is bigger than root's node size");
+        }
+        if (root == null) {
+            return null;
+        }
+        int leftSize = size(root.left);
+        if (leftSize < k) {
+            return select(root.right, k - leftSize - 1);
+        } else if (leftSize > k) {
+            return select(root.left, k);
+        } else {
+            return root;
+        }
+    }
+
+
+    /**
+     * 获取在root为根节点的二叉树中target的排名
+     *
+     * @param root
+     * @param target
+     * @return
+     */
+    public int rank(Node root, Node target) {
+        if (root == null) {
+            return -1;
+        }
+        int comp = root.key.compareTo(target.key);
+        if (comp > 0) {
+            return rank(root.left, target);
+        } else if (comp < 0) {
+            return rank(root.right, target) + size(root.left) + 1;
+        } else {
+            return size(root.left);
         }
     }
 
