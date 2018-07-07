@@ -19,4 +19,24 @@ public class BinarySearch {
         }
         return -1;
     }
+
+    public int search_re(int key, int[] a) {
+        if (a == null || a.length == 0) {
+            return -1;
+        }
+        return search_re(key, a, 0, a.length / 2, a.length - 1);
+    }
+
+    public int search_re(int key, int[] a, int lo, int mid, int hi) {
+        if (lo > hi) {
+            return -1;
+        }
+        if (a[mid] == key) {
+            return mid;
+        } else if (a[mid] > key) {
+            return search_re(key, a, lo, lo + (mid - 1 - lo) / 2, mid - 1);
+        } else {
+            return search_re(key, a, mid + 1, mid + 1 + (hi - mid - 1) / 2, hi);
+        }
+    }
 }
