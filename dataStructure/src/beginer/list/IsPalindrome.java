@@ -48,8 +48,8 @@ public class IsPalindrome {
     @Test
     public void test() {
         int[] array = {1,2,3,4,5};
-        ListNode node = ListNode.create(array);
-        isPalindrome(node);
-        ListNode.printList(node);
+//        ListNode node = ListNode.create(array);
+//        isPalindrome(node);
+//        ListNode.printList(node);
     }
 }

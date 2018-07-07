@@ -1,3 +1,5 @@
+package base;
+
 import java.security.InvalidParameterException;
 
 public class BinarySearchTree<Key extends Comparable, Value> {
