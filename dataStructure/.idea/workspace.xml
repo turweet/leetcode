@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb57ff25-cfa4-41ee-a204-fe576e0a2b79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/search/Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/dynamicprogramming/FibTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/dynamicprogramming/Fibonacci.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/dynamicprogramming/SteelTripe.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/beginer/dp/ClimbStairs.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/base/search/BinarySearch.java" afterPath="$PROJECT_DIR$/src/base/search/BinarySearch.java" />
-      <change beforePath="$PROJECT_DIR$/src/beginer/sortNsearch/FirstBadVersion.java" afterPath="$PROJECT_DIR$/src/beginer/sortNsearch/FirstBadVersion.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,39 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IsPalindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beginer/list/IsPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/BinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
-              <caret line="74" column="31" lean-forward="false" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Play.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Play.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-              <folding>
-                <element signature="e#52#53#0" expanded="true" />
-                <element signature="e#77#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,16 +73,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstBadVersion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FirstBadVersion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/beginer/sortNsearch/FirstBadVersion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="343">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#187#188#0" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SteelTripe.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/dynamicprogramming/SteelTripe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClimbStairs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/beginer/dp/ClimbStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding>
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/dynamicprogramming/Fibonacci.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FibTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/dynamicprogramming/FibTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,6 +204,10 @@
         <option value="$PROJECT_DIR$/src/base/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/base/search/Test.java" />
         <option value="$PROJECT_DIR$/src/beginer/sortNsearch/FirstBadVersion.java" />
+        <option value="$PROJECT_DIR$/src/base/dynamicprogramming/FibTest.java" />
+        <option value="$PROJECT_DIR$/src/base/dynamicprogramming/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/base/dynamicprogramming/SteelTripe.java" />
+        <option value="$PROJECT_DIR$/src/beginer/dp/ClimbStairs.java" />
       </list>
     </option>
   </component>
@@ -245,6 +264,13 @@
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicprogramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,6 +285,13 @@
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="beginer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="beginer" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -323,32 +356,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.test (1)">
+  <component name="RunManager" selected="JUnit.SteelTripe.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="beginer.lunwen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="beginer.lunwen.H" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="dataStructure" />
-      <envs />
     </configuration>
     <configuration name="Play" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -378,18 +392,43 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="RemoveNthFromEnd_attention.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FibTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="beginer.list.*" />
+          <option name="PATTERN" value="base.dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="dataStructure" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="beginer.list" />
-      <option name="MAIN_CLASS_NAME" value="beginer.list.RemoveNthFromEnd_attention" />
+      <option name="PACKAGE_NAME" value="base.dynamicprogramming" />
+      <option name="MAIN_CLASS_NAME" value="base.dynamicprogramming.FibTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SteelTripe.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="base.dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="dataStructure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="base.dynamicprogramming" />
+      <option name="MAIN_CLASS_NAME" value="base.dynamicprogramming.SteelTripe" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -514,19 +553,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RemoveNthFromEnd_attention.test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.H" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Play" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Test.test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test.test (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Play" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Test.test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Test.test (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FibTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SteelTripe.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test.test (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Test.test" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Play" />
-        <item index="3" class="java.lang.String" itemvalue="Application.H" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RemoveNthFromEnd_attention.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SteelTripe.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FibTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Test.test (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Test.test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Play" />
       </list>
     </recent_temporary>
   </component>
@@ -547,35 +586,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_test - 2018.07.07 at 21h 45m 38s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="FibTest_test - 2018.07.08 at 12h 31m 31s.xml">
+      <configuration name="FibTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 29m 40s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="FibTest_test - 2018.07.08 at 12h 32m 11s.xml">
+      <configuration name="FibTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 31m 39s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 00m 01s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 36m 06s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 05m 59s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 38m 28s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 06m 37s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 54m 23s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 08m 07s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 56m 06s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 09m 53s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 57m 34s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 12m 00s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test - 2018.07.07 at 22h 58m 19s.xml">
-      <configuration name="Test.test" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 36m 32s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test_test_(1) - 2018.07.07 at 23h 42m 00s.xml">
-      <configuration name="Test.test (1)" configurationId="JUnit" />
+    <history-entry file="SteelTripe_test - 2018.07.08 at 13h 56m 11s.xml">
+      <configuration name="SteelTripe.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -601,7 +640,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32648125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2744861" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -646,6 +685,12 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/base/dynamicprogramming/Fibonacci.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/base/sort/MergeSort.java</url>
           <line>24</line>
@@ -655,7 +700,7 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -679,39 +724,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="642" column="25" lean-forward="false" selection-start-line="642" selection-start-column="25" selection-end-line="642" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="492" column="30" lean-forward="false" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/array/ArrayRotate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="88" column="19" lean-forward="false" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/array/ContainsDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/beginer/array/Intersect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -1081,13 +1093,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/beginer/sortNsearch/FirstBadVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="343">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#146#147#0" expanded="true" />
             <element signature="e#187#188#0" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/dynamicprogramming/FibTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/dynamicprogramming/SteelTripe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="67" column="37" lean-forward="false" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/dynamicprogramming/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="59" column="7" lean-forward="false" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beginer/dp/ClimbStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
           </folding>
         </state>
       </provider>
