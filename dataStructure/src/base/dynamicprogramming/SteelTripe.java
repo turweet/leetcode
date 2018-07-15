@@ -32,6 +32,7 @@ public class SteelTripe {
         int result = price[n - 1];
         for (int i = 1; i < n; i++) {
             result = Math.max(result, price[i - 1] + cut_memo_inner(memo, n - i));
+            memo[n - 1] = result;
         }
         return result;
     }
