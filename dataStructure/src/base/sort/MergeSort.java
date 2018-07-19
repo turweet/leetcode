@@ -1,8 +1,5 @@
 package base.sort;
 
-/**
- * 学习非递归的写法
- */
 public class MergeSort implements ISort {
     int[] aux;
 
@@ -40,4 +37,5 @@ public class MergeSort implements ISort {
             }
         }
     }
+    // TODO: 18/07/2018 非递归写法
 }
