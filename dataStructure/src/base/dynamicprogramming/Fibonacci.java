@@ -18,26 +18,22 @@ public class Fibonacci {
      */
     public int fib_memo(int n) {
         int memo[] = new int[n + 1]; //注意这里的数组边界条件，是需要加一的
-        for (int i = 0; i <= n; i++) {
-            memo[i] = -1;
-        }
         return fib_memo_inner(n, memo);
     }
 
     private int fib_memo_inner(int n, int[] memo) {
-        if (memo[n] != -1) {
-            return memo[n];
-        } else if (n == 0) {
-            memo[n] = 0;
+        if (n == 0) {
             return 0;
-        } else if (n == 1) {
-            memo[n] = 1;
+        }
+        if (n == 1) {
             return 1;
-        } else {
-            memo[n] = fib_memo_inner(n - 1, memo) +
-                    fib_memo_inner(n - 2, memo);
+        }
+        if (memo[n] != 0) {
             return memo[n];
         }
+        memo[n] = fib_memo_inner(n - 1, memo) +
+                fib_memo_inner(n - 2, memo);
+        return memo[n];
     }
 
     public int fib_bottomToTop(int n) {

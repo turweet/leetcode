@@ -42,4 +42,5 @@ public class QuickSort implements ISort {
         return j;
     }
     // TODO: 18/07/2018 非递归的方式实现
+    //参考：https://www.geeksforgeeks.org/iterative-quick-sort/
 }

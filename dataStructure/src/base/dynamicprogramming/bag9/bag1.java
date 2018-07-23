@@ -39,11 +39,8 @@ public class bag1 {
     public static void put() {
         for (int curCount = 1; curCount < counts; curCount++) {
             for (int curCap = cost_value[curCount][0]; curCap <= V; curCap++) {
-//                if (cost_value[curCount][0] > curCap) { //当前的容量不能放下curCount对应的物品
-//                    result[curCount][curCap] = result[curCount - 1][curCap];
-//                } else {
-                    result[curCount][curCap] = Math.max(result[curCount -1][curCap], result[curCount-1][curCap - cost_value[curCount][0]] + cost_value[curCount][1]);
-//                }
+                    result[curCount][curCap] = Math.max(result[curCount -1][curCap],
+                            result[curCount-1][curCap - cost_value[curCount][0]] + cost_value[curCount][1]);
             }
         }
     }
