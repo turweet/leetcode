@@ -1,6 +1,11 @@
 package medium.tree;
 
+import apple.laf.JRSUIUtils;
 import beginer.tree.TreeNode;
+import jdk.nashorn.internal.ir.IfNode;
+import org.junit.Assert;
+import org.junit.Test;
+import summary.Attention;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +24,7 @@ public class IsValidBST {
         List<TreeNode> data = inorder(root, new ArrayList<>());
         if (data.size() > 1) {
             for (int i = 0; i < data.size() - 1; i++) {
-                if (data.get(i + 1).val <=data.get(i).val) {
+                if (data.get(i + 1).val <= data.get(i).val) {
                     return false;
                 }
             }
@@ -37,5 +42,50 @@ public class IsValidBST {
         return container;
     }
 
+    public boolean isValidBSTBetter(TreeNode root) {
+        return inorder2(root);
+    }
 
+    static int pre = Integer.MIN_VALUE;
+
+    @Attention("这里犯了难，还是需要好好看看啊")
+    public static boolean inorder2(TreeNode node) {
+        if (node == null) {
+            return true;
+        }
+        if (!inorder2(node.left)) {
+            return false; //一旦左侧有不符合的情况就直接打断
+        }
+        if (pre > node.val) {
+            return false;
+        }
+        pre = node.val;
+        if (!inorder2(node.right)) {
+            return false;//一旦右侧有不符合的情况就直接打断
+        }
+        return true;
+    }
+
+    public boolean isValidBST_Best(TreeNode node) {
+        return inner_best(node, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+    private boolean inner_best(TreeNode node, int min, int max) {
+        if (node == null) return true;
+        if (node.val <= min || node.val >= max) {
+            return false;
+        }
+        if (!inner_best(node.left, min, node.val)) {
+            return false;
+        }
+        if (!inner_best(node.right, node.val, max)) {
+            return false;
+        }
+        return true;
+    }
+
+    @Test
+    public void test() {
+        Assert.assertEquals(true, isValidBSTBetter(new TreeNode(0)));
+    }
 }
