@@ -1,0 +1,6 @@
+char是Java中的保留字，与别的语言不同的是，char在Java中是16位的，
+因为Java用的是Unicode。不过8位的ASCII码包含在Unicode中，是从0~127的。
+
+数字0对应ascii码48 之后2 3 4 5 6依次类推
+A 对应 65
+a 对应 97
