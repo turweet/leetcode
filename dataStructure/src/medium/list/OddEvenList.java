@@ -25,12 +25,45 @@ import java.util.List;
  * 链表的第一个节点视为奇数节点，第二个节点视为偶数节点，以此类推。
  */
 public class OddEvenList {
-    public ListNode oddEvenList(ListNode head) {
-        ListNode curr = head;
-        while (true) {
-            ListNode temp = curr;
-            curr = temp.next.next;
-            curr.next = temp.next;
+
+    public ListNode oddEvenListBetter(ListNode head) {
+        if (head != null) {
+            ListNode odd = head, even = head.next, evenHead = even;
+            while (even != null && even.next != null) {
+                odd.next = odd.next.next;
+                even.next = even.next.next;
+                odd = odd.next;
+                even = even.next;
+            }
+            odd.next = evenHead;
         }
+        return head;
+    }
+
+    public ListNode oddEvenList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode evenFirst = head.next;
+        ListNode odd = head;
+        ListNode even = evenFirst;
+        while (true) {
+            if (odd.next == null || odd.next.next == null) {
+                break;
+            }
+            odd.next = odd.next.next;
+            odd = odd.next;
+            even.next = even.next.next;
+            even = even.next;
+
+        }
+        odd.next = evenFirst;
+        return head;
+    }
+
+    public static void main(String[] args) {
+        ListNode head = ListNode.stringToListNode("[1,2,3,4,5]");
+        ListNode newHead = new OddEvenList().oddEvenList(head);
+        System.out.println(newHead.val);
     }
 }

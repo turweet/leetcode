@@ -1,5 +1,10 @@
 package beginer.dp;
 
+/**
+ * 被标注为easy的题并不简单，比我做的medium的题目还难，大家也是这样反应的
+ * 原题：https://leetcode.com/problems/maximum-subarray/description/
+ * 讲解：https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+ */
 public class MaxSubArray {
     /**
      * 超时
