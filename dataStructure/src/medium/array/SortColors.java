@@ -8,6 +8,38 @@ import java.util.Map;
  */
 public class SortColors {
     /**
+     * 一遍遍历，如果发现了0就和左侧交换，如果发现了2就和右侧交换
+     *
+     * @param nums
+     */
+    public void sortColors(int[] nums) {
+        if (nums.length == 1) {
+            return;
+        }
+        int lo = 0;
+        int hi = nums.length - 1;
+        for (int i = lo; i <= hi; ) {//注意这里的条件不是简单的从头到尾的遍历
+            if (nums[i] == 0) {
+                exchange(nums, lo, i);
+                lo++;
+                i++;
+            } else if (nums[i] == 2) {
+                exchange(nums, hi, i);
+                hi--; //这里只需要让hi--就好了，不需要让i++
+            } else {
+                i++;
+            }
+        }
+    }
+
+
+    public static void exchange(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    /**
      * 注意0 1 2 有可能某种颜色不存在的情况
      *
      * @param nums
