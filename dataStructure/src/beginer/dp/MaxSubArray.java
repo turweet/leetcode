@@ -8,6 +8,7 @@ package beginer.dp;
 public class MaxSubArray {
     /**
      * 超时
+     *
      * @param nums
      * @return
      */
@@ -33,5 +34,24 @@ public class MaxSubArray {
         }
         return result;
     }
+
+    public int maxSubArray_dp(int[] nums) {
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        int[] currentSum = new int[nums.length];
+        currentSum[0] = nums[0];
+        int max = currentSum[0];
+        for (int i = 1; i < nums.length; i++) {
+            currentSum[i] = currentSum[i - 1] > 0 ?
+                    currentSum[i - 1] + nums[i] :
+                    nums[i];
+            if (currentSum[i] > max) {
+                max = currentSum[i];
+            }
+        }
+        return max;
+    }
+
 
 }

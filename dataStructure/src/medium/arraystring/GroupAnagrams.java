@@ -38,6 +38,12 @@ public class GroupAnagrams {
         return new ArrayList<>(map.values());
     }
 
+    /**
+     * 这种方法是不行的，因为总和为某个数，可能有不同的char组合起来
+     *
+     * @param s
+     * @return
+     */
     public int getCharsValue(String s) {
         char[] chars = s.toCharArray();
         int result = 0;

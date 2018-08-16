@@ -12,19 +12,19 @@ public class ClimbStairs {
      * @return
      */
     public int climbStairs_rec(int n) {
-        return cs_recInner(0, n);
-    }
-
-    private int cs_recInner(int i, int n) {
-        if (i > n) {
+        if (n == 0) {
             return 0;
         }
-        if (i == n) {
+        if (n == 1) {
             return 1;
         }
-        return cs_recInner(i + 1, n) +
-                cs_recInner(i + 2, n); //意为第i步之后还有多少种走法
+        if (n == 2) {
+            return 2;
+        }
+
+        return climbStairs_rec(n -1) + climbStairs_rec(n - 2);
     }
+
 
 
     /**

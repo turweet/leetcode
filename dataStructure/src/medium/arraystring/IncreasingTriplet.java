@@ -47,13 +47,13 @@ public class IncreasingTriplet {
      * @return
      */
     public boolean increasingTriplet(int[] nums) {
-        int small = Integer.MAX_VALUE;
-        int big = Integer.MAX_VALUE;
+        int small1 = Integer.MAX_VALUE; //第一小的数字
+        int small2 = Integer.MAX_VALUE; //第二小的数字
         for (int i = 0; i < nums.length; i++) {
-           if (nums[i] <= small) {
-               small = nums[i];
-           } else if (nums[i] <= big) {
-               big = nums[i];
+           if (nums[i] <= small1) {
+               small1 = nums[i];
+           } else if (nums[i] <= small2) {
+               small2 = nums[i];
            } else {
                return true;
            }

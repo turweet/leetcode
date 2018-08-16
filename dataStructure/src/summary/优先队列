@@ -1,0 +1,5 @@
+这篇文章的介绍很不错:https://www.callicoder.com/java-priority-queue/
+优先队列最大的值在队列插入的那一头，最小的值在队列末尾，所以remove的话先把小的remove掉
+
+重点：
+java的PriorityQueue就是min-Heap， that is the top element is the minimum one in the heap  参考：https://stackoverflow.com/questions/6065710/how-does-javas-priorityqueue-differ-from-a-min-heap.

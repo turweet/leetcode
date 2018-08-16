@@ -60,4 +60,31 @@ public class TopKFrequent {
         }
         return result;
     }
+
+    public List<Integer> topKFrequent_withPQ(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+        }
+        PriorityQueue<Map.Entry<Integer, Integer>> priorityQueue = new PriorityQueue<>(k + 1, new Comparator<Map.Entry<Integer, Integer>>() {
+            @Override
+            public int compare(Map.Entry<Integer, Integer> o1, Map.Entry<Integer, Integer> o2) {
+                return o1.getValue().compareTo(o2.getValue());
+            }
+        });
+        for (Map.Entry<Integer, Integer> en : map.entrySet()) {
+            priorityQueue.offer(en);
+//            map.remove(en.getKey()); 经常出现的一个错误，解决办法：https://stackoverflow.com/questions/602636/concurrentmodificationexception-and-a-hashmap
+            if (priorityQueue.size() == k + 1) {
+                priorityQueue.remove();
+            }
+        }
+        List<Integer> li = new ArrayList<>();
+        Iterator<Map.Entry<Integer, Integer>> iterator = priorityQueue.iterator();
+        while (iterator.hasNext()) {
+            li.add(iterator.next().getKey());
+        }
+        return li;
+
+    }
 }

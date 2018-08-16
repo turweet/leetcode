@@ -4,12 +4,12 @@ package beginer.array;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * 这个题可以买卖多次
+ */
 public class MaxProfit {
 
     public int maxProfit(int[] prices) {
-        if (prices.length == 0) {
-            throw new IllegalArgumentException("arrary is empty");
-        }
         int result = 0;
         for (int i = 0; i < prices.length - 1; i++) {
             if (prices[i + 1] > prices[i]) {

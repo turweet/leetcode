@@ -59,17 +59,30 @@ public class IsSubtree {
         System.out.println(ret);
     }
 
+    /**
+     * beat:93.39%
+     * @param s
+     * @param t
+     * @return
+     */
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if (s == null && t == null) return true;
         if (s == null) return false;
         if (s.val == t.val) {
-            if (TreeNode.totalMatch(s, t)) {
+            if (totalMatch(s, t)) {
                 return true;
             }
         }
         return isSubtree(s.left, t) || isSubtree(s.right, t);
     }
 
+    public static boolean totalMatch(TreeNode s, TreeNode t) {
+        if (s == null && t == null) return true;
+        if (s == null || t == null) return false;
+        if (s.val == t.val) return totalMatch(s.left, t.left) && totalMatch(s.right, t.right);
+        else return false;
+
+    }
 
 }
 

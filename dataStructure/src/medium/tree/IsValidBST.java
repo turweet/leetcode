@@ -56,7 +56,7 @@ public class IsValidBST {
         if (!inorder2(node.left)) {
             return false; //一旦左侧有不符合的情况就直接打断
         }
-        if (pre > node.val) {
+        if (pre >= node.val) {
             return false;
         }
         pre = node.val;

@@ -5,6 +5,10 @@ import util.ListUtil;
 
 import java.util.*;
 
+/**
+ * https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
+ * 注意这个题是不考虑顺序的
+ */
 public class Intersect {
     public int[] intersect_not_work(int[] nums1, int[] nums2) {
         List<Integer> first = ArrayUtil.arrayIntToList(nums1);

@@ -4,10 +4,15 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/set-matrix-zeroes/description/
+ */
 public class MatrixSetZeroes {
     /**
      * times:1
+     * <p>
      * 竟然一次通过还打败了93.3%的人
+     *
      * @param matrix
      */
     public void setZeroes(int[][] matrix) {

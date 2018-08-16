@@ -5,9 +5,9 @@ public class Play {
     }
 
     public static void main(String[] args) {
-        String m = "dddd";
-        Play play = new Play();
-        play.test(m);
-        System.out.println(m);
+        int[][] arr = {{1, 2, 3}, {1, 2, 3}};
+        System.out.println(arr.length);
+        System.out.println(arr[0].length);
     }
+
 }
