@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb57ff25-cfa4-41ee-a204-fe576e0a2b79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/hard/array/FindMinimumInRotatedSortedArrayII.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/graph/GraphImplAdjList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/base/graph/GraphImplAdjMatrix.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/medium/graph/NumberofIslands.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/medium/list/CopyListwithRandomPointer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/medium/array/SortColors.java" afterPath="$PROJECT_DIR$/src/medium/array/SortColors.java" />
-      <change beforePath="$PROJECT_DIR$/src/medium/arraystring/FindMin.java" afterPath="$PROJECT_DIR$/src/medium/arraystring/FindMin.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,54 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaxProfit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beginer/array/MaxProfit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaxProfit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beginer/dp/MaxProfit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="32" lean-forward="false" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-              <folding>
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#1168#1169#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuildTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/tree/BuildTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveDuplicatesfromSortedArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/beginer/array/RemoveDuplicatesfromSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SortColors.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/array/SortColors.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,15 +43,79 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindMin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindMin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/arraystring/FindMin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="330">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
               <folding>
                 <element signature="e#581#582#0" expanded="true" />
                 <element signature="e#650#651#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberofIslands.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medium/graph/NumberofIslands.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeKLists.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hard/list/MergeKLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyListwithRandomPointer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medium/list/CopyListwithRandomPointer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphImplAdjList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/base/graph/GraphImplAdjList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-232">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding>
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphImplAdjMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base/graph/GraphImplAdjMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,19 +136,6 @@
             <state relative-caret-position="230">
               <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85721">
-              <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
-              <folding>
-                <element signature="e#177013#177014#0" expanded="true" />
-                <element signature="e#177054#177055#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -174,14 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/beginer/heap/KthLargest.java" />
-        <option value="$PROJECT_DIR$/src/Play.java" />
-        <option value="$PROJECT_DIR$/src/summary/优先队列" />
-        <option value="$PROJECT_DIR$/src/medium/heap/KthSmallest.java" />
-        <option value="$PROJECT_DIR$/src/medium/arraystring/LongestPalindrome.java" />
-        <option value="$PROJECT_DIR$/src/hard/LRUCache_TimeLimit.java" />
-        <option value="$PROJECT_DIR$/src/hard/LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/beginer/design/ImplementStackusingQueues.java" />
         <option value="$PROJECT_DIR$/src/beginer/design/ImplementQueueusingStacks.java" />
         <option value="$PROJECT_DIR$/src/beginer/dp/MaxProfit.java" />
         <option value="$PROJECT_DIR$/src/beginer/array/MaxProfit.java" />
@@ -210,7 +206,6 @@
         <option value="$PROJECT_DIR$/src/medium/arraystring/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/medium/arraystring/TopKFrequent.java" />
         <option value="$PROJECT_DIR$/src/base/Heap.java" />
-        <option value="$PROJECT_DIR$/src/hard/list/MergeKLists.java" />
         <option value="$PROJECT_DIR$/src/medium/list/AddTwoNumbers2.java" />
         <option value="$PROJECT_DIR$/src/medium/tree/Connect.java" />
         <option value="$PROJECT_DIR$/src/beginer/tree/IsSubtree.java" />
@@ -225,6 +220,15 @@
         <option value="$PROJECT_DIR$/src/medium/array/SortColors.java" />
         <option value="$PROJECT_DIR$/src/hard/array/FindMinimumInRotatedSortedArrayII.java" />
         <option value="$PROJECT_DIR$/src/medium/arraystring/FindMin.java" />
+        <option value="$PROJECT_DIR$/src/medium/graph/NumberofIslands.java" />
+        <option value="$PROJECT_DIR$/src/hard/list/MergeKLists.java" />
+        <option value="$PROJECT_DIR$/src/medium/list/CopyListwithRandomPointer.java" />
+        <option value="$PROJECT_DIR$/src/base/graph/GraphImpl_adjList.java" />
+        <option value="$PROJECT_DIR$/src/base/graph/graphImplAdjList.java" />
+        <option value="$PROJECT_DIR$/src/base/graph/GraphImpl_adjMatrix.java" />
+        <option value="$PROJECT_DIR$/src/base/graph/graphImplAdjMatrix.java" />
+        <option value="$PROJECT_DIR$/src/base/graph/GraphImplAdjMatrix.java" />
+        <option value="$PROJECT_DIR$/src/base/graph/GraphImplAdjList.java" />
       </list>
     </option>
   </component>
@@ -234,10 +238,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="203" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -273,20 +276,27 @@
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beginer" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="beginer" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hard" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -306,7 +316,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="findmin&#9;PSI&#9;JAVA://medium.arraystring.FindMin&#10;find&#9;RUN_CONFIGURATION&#9;FindMin&#10;arrayut&#9;PSI&#9;JAVA://util.ArrayUtil&#10;sortco&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/array/SortColors.java&#10;maxsub&#9;PSI&#9;JAVA://beginer.dp.MaxSubArray&#10;lruc&#9;RUN_CONFIGURATION&#9;LRUCache&#10;maxpro&#9;PSI&#9;JAVA://beginer.dp.MaxProfit&#10;maxprof&#9;PSI&#9;JAVA://beginer.array.MaxProfit&#10;List&#9;PSI&#9;JAVA://java.util.List&#10;mergek&#9;PSI&#9;JAVA://hard.list.MergeKLists&#10;k&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/heap/KthLargest.java&#10;delete&#9;PSI&#9;JAVA://beginer.list.DeleteNode&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;maxpr&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/dp/MaxProfit.java&#10;rotate&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/ArrayRotate.java&#10;collection&#9;PSI&#9;JAVA://java.util.Collection&#10;low&#9;PSI&#9;JAVA://medium.tree.LowestCommonAncestor2&#10;MAP&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;intege&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;isvalidbst&#9;PSI&#9;JAVA://medium.tree.IsValidBST&#10;longpa&#9;PSI&#9;JAVA://medium.arraystring.LongestPalindrome&#10;kthsma&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/heap/KthSmallest.java&#10;ksm&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/tree/KthSmallest.java&#10;minsta&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/design/MinStack.java&#10;prime&#9;PSI&#9;JAVA://beginer.math.CountPrimes&#10;detec&#9;PSI&#9;JAVA://medium.list.DetectCycle&#10;listnode&#9;PSI&#9;JAVA://beginer.list.ListNode&#10;oddeve&#9;PSI&#9;JAVA://medium.list.OddEvenList&#10;twosum&#9;PSI&#9;JAVA://beginer.array.TwoSum&#10;arrayuti&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/util/ArrayUtil.java&#10;fibon&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/base/dynamicprogramming/Fibonacci.java&#10;queue&#9;PSI&#9;JAVA://java.util.Queue&#10;tree&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/base/BinarySearchTree.java&#10;treemap&#9;PSI&#9;JAVA://java.util.TreeMap" />
+    <property name="SearchEverywhereHistoryKey" value="mergekli&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/hard/list/MergeKLists.java&#10;findmin&#9;PSI&#9;JAVA://medium.arraystring.FindMin&#10;find&#9;RUN_CONFIGURATION&#9;FindMin&#10;arrayut&#9;PSI&#9;JAVA://util.ArrayUtil&#10;sortco&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/array/SortColors.java&#10;maxsub&#9;PSI&#9;JAVA://beginer.dp.MaxSubArray&#10;lruc&#9;RUN_CONFIGURATION&#9;LRUCache&#10;maxpro&#9;PSI&#9;JAVA://beginer.dp.MaxProfit&#10;maxprof&#9;PSI&#9;JAVA://beginer.array.MaxProfit&#10;List&#9;PSI&#9;JAVA://java.util.List&#10;mergek&#9;PSI&#9;JAVA://hard.list.MergeKLists&#10;k&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/heap/KthLargest.java&#10;delete&#9;PSI&#9;JAVA://beginer.list.DeleteNode&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;maxpr&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/dp/MaxProfit.java&#10;rotate&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/ArrayRotate.java&#10;collection&#9;PSI&#9;JAVA://java.util.Collection&#10;low&#9;PSI&#9;JAVA://medium.tree.LowestCommonAncestor2&#10;MAP&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/HashMap.java&#10;intege&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar!/java/lang/Integer.class&#10;isvalidbst&#9;PSI&#9;JAVA://medium.tree.IsValidBST&#10;longpa&#9;PSI&#9;JAVA://medium.arraystring.LongestPalindrome&#10;kthsma&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/heap/KthSmallest.java&#10;ksm&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/tree/KthSmallest.java&#10;minsta&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/design/MinStack.java&#10;prime&#9;PSI&#9;JAVA://beginer.math.CountPrimes&#10;detec&#9;PSI&#9;JAVA://medium.list.DetectCycle&#10;listnode&#9;PSI&#9;JAVA://beginer.list.ListNode&#10;oddeve&#9;PSI&#9;JAVA://medium.list.OddEvenList&#10;twosum&#9;PSI&#9;JAVA://beginer.array.TwoSum&#10;arrayuti&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/util/ArrayUtil.java&#10;fibon&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/base/dynamicprogramming/Fibonacci.java&#10;queue&#9;PSI&#9;JAVA://java.util.Queue&#10;tree&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/base/BinarySearchTree.java&#10;treemap&#9;PSI&#9;JAVA://java.util.TreeMap" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -621,7 +631,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -647,7 +657,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47570333" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31688127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31688127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -725,34 +735,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/beginer/list/DeleteNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/heap/KthLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/list/GetIntersectionNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/list/HasCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="34" column="28" lean-forward="false" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/beginer/list/IsPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -764,6 +746,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -771,13 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="619">
           <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hard/list/MergeKLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -799,6 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -806,6 +783,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -813,6 +791,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -820,6 +799,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,6 +807,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,11 +1097,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/arraystring/FindMin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
             <element signature="e#581#582#0" expanded="true" />
             <element signature="e#650#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/graph/NumberofIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hard/list/MergeKLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/list/CopyListwithRandomPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/graph/GraphImplAdjMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/graph/GraphImplAdjList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
           </folding>
         </state>
       </provider>
