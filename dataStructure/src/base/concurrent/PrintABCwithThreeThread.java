@@ -1,12 +1,12 @@
 package base.concurrent;
 
-public class MyThreadPrinter2 implements Runnable {
+public class PrintABCwithThreeThread implements Runnable {
 
     private String name;
     private Object prev;
     private Object self;
 
-    private MyThreadPrinter2(String name, Object prev, Object self) {
+    private PrintABCwithThreeThread(String name, Object prev, Object self) {
         this.name = name;
         this.prev = prev;
         this.self = self;
@@ -37,9 +37,9 @@ public class MyThreadPrinter2 implements Runnable {
         Object a = new Object();
         Object b = new Object();
         Object c = new Object();
-        MyThreadPrinter2 pa = new MyThreadPrinter2("A", c, a);
-        MyThreadPrinter2 pb = new MyThreadPrinter2("B", a, b);
-        MyThreadPrinter2 pc = new MyThreadPrinter2("C", b, c);
+        PrintABCwithThreeThread pa = new PrintABCwithThreeThread("A", c, a);
+        PrintABCwithThreeThread pb = new PrintABCwithThreeThread("B", a, b);
+        PrintABCwithThreeThread pc = new PrintABCwithThreeThread("C", b, c);
 
 
         new Thread(pa).start();
