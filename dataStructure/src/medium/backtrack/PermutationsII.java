@@ -1,27 +1,30 @@
 package medium.backtrack;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Set;
 
 public class PermutationsII {
     public List<List<Integer>> permuteUnique(int[] nums) {
-        Set<List<Integer>> ans = new HashSet<>();
-        backtracking(ans, new ArrayList<>(), nums);
-        return new ArrayList<>(ans);
+        List<List<Integer>> ans = new ArrayList<>();
+        Arrays.sort(nums);
+        boolean[] used = new boolean[nums.length];
+        backtracking(ans, new ArrayList<>(), nums, used);
+        return ans;
     }
 
-    private void backtracking(Set<List<Integer>> ans, List<Integer> tempList, int[] nums) {
+    private void backtracking(List<List<Integer>> ans, List<Integer> tempList, int[] nums, boolean[] used) {
         if (tempList.size() == nums.length) {
-            ans.add(new ArrayList<>(tempList));
+            ans.add(new ArrayList<>(tempList)); //注意这里需要new出新的对象
         } else {
             for (int i = 0; i < nums.length; i++) {
-                if (tempList.contains(nums[i])) {
+                if (used[i] || i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) {//最后这个且的条件不好理解，加不加!都可以，但是加了之后效率会更好
                     continue;
                 } else {
                     tempList.add(nums[i]); //choose
-                    backtracking(ans, tempList, nums); //explore
+                    used[i] = true;
+                    backtracking(ans, tempList, nums, used); //explore
+                    used[i] = false;
                     tempList.remove(tempList.size() - 1); //un-choose
                 }
             }
