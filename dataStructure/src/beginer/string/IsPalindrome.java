@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IsPalindrome {
+
     public boolean isPalindrome(String s) {
         char[] chars = s.toCharArray();
         List<Character> charList = new ArrayList<>();
@@ -19,14 +20,15 @@ public class IsPalindrome {
         int end = charList.size() - 1;
         while (start < end) {
             if (charList.get(start) == charList.get(end)) {
-               start++;
-               end--;
+                start++;
+                end--;
             } else {
                 return false;
             }
         }
         return true;
     }
+
 }
 //总结：
 //注意审题，题目中说的是包含数字和字符的，所以不能遗漏数字
