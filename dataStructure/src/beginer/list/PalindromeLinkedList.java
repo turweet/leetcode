@@ -29,7 +29,7 @@ import java.util.Stack;
  * 3. 参考了别人的做法，他没有额外的空间来存储全部结点，但仍需要遍历一遍,不过的slow fast指针不错！
  * 4. 还可以用栈来做，遍历一次存入栈中，然后再遍历一次同时从栈中pop数据如果到结束都一致就是回文了
  */
-public class IsPalindrome {
+public class PalindromeLinkedList {
 
     public boolean isPalindrome(ListNode head) {
         ListNode fast = head;

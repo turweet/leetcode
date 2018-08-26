@@ -76,7 +76,7 @@ public class Traversal {
     }
 
     /**
-     * 宽度遍历
+     * 层次遍历
      *
      * @param node
      */
@@ -102,6 +102,10 @@ public class Traversal {
         }
     }
 
+    /**
+     * 利用队列进行层次遍历
+     * @param node
+     */
     public void bfs2(BinaryTreeNode node) {
         if (node == null) {
             return;
@@ -119,6 +123,4 @@ public class Traversal {
             }
         }
     }
-
-
 }

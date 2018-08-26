@@ -11,7 +11,6 @@ public class ThreeSum {
      * @param nums
      * @return
      */
-    // TODO: 17/07/2018 待优化
     public List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> result = new HashSet<>();
         Arrays.sort(nums);

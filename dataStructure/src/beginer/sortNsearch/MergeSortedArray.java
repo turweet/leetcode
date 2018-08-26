@@ -1,6 +1,9 @@
 package beginer.sortNsearch;
 
-public class Merge {
+/**
+ * https://leetcode.com/problems/merge-sorted-array/description/
+ */
+public class MergeSortedArray {
     public void merge_bad(int[] nums1, int m, int[] nums2, int n) {
         for (int i = 0; i < n; i++) {
             nums1[m + i] = nums2[i];

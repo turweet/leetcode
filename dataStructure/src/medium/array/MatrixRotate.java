@@ -1,5 +1,10 @@
 package medium.array;
 
+/**
+ * 通用的旋转说明：
+ * https://leetcode.com/problems/rotate-image/discuss/18872/A-common-method-to-rotate-the-image
+ */
+
 public class MatrixRotate {
     public void rotate(int[][] matrix) {
         int count = matrix.length;

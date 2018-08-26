@@ -15,8 +15,7 @@ public class Heap {
         for (int i = 0; i < a.length; i++) {
             a[i] = priorityQueue.remove();
         }
-        for (int i :
-                a) {
+        for (int i : a) {
             System.out.println(i);
         }
 

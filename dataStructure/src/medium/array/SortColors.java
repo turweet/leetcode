@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class SortColors {
     /**
-     * 一遍遍历，如果发现了0就和左侧交换，如果发现了2就和右侧交换
+     * 双指针，一遍遍历，如果发现了0就和左侧交换，如果发现了2就和右侧交换
      *
      * @param nums
      */

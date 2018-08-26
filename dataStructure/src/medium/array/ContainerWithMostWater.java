@@ -1,6 +1,11 @@
 package medium.array;
 
 public class ContainerWithMostWater {
+    /**
+     * 利用头尾的两个指针来做
+     * @param height
+     * @return
+     */
     public int maxArea(int[] height) {
         int max = 0;
         int left = 0;

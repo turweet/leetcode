@@ -1,6 +1,5 @@
 package beginer.search;
 
-import jdk.nashorn.internal.ir.IfNode;
 
 /**
  * https://leetcode.com/problems/search-insert-position/description/

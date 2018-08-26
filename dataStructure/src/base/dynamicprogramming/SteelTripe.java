@@ -6,6 +6,11 @@ import org.junit.Test;
 public class SteelTripe {
     public int[] price = {1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
 
+    /**
+     * 遍历过程中面对这个尺寸有两种选择，选或者不选，然后从里边选出最大的那个
+     * @param n
+     * @return
+     */
     public int cut_rec(int n) {
         if (n == 0) {
             return 0;
