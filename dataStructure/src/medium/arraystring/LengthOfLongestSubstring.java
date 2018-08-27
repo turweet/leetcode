@@ -50,12 +50,27 @@ public class LengthOfLongestSubstring {
         return true;
     }
 
+    /**
+     * 举例如下：
+     * 0 1 2 3 4 5 6 7
+     * a b c a b c b b
+     * i = 3 j = 1
+     * i = 4 j = 2
+     * i = 5 j = 3
+     * i = 6 j = 5
+     * i = 7 j = 7
+     * 所以j维护了从j到i包括j的最长位置
+     * map就是维护这char所对应的最新的位置
+     * @param s
+     * @return
+     */
     public int lenthOfLongestSubstring(String s) {
         if (s.length() == 0) return 0;
         int max = 0;
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0, j = 0; i < s.length(); i++) {
             if (map.containsKey(s.charAt(i))) {
+                // j的意思是从j开始到现在的i的最大长度
                 j = Math.max(j, map.get(s.charAt(i)) + 1);
             }
             max = Math.max(max, i - j + 1);
