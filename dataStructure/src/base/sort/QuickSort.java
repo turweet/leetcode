@@ -3,7 +3,7 @@ package base.sort;
 import util.ArrayUtil;
 
 public class QuickSort implements ISort {
-    @Override
+
     public void sort(int[] arr) {
         sort(arr, 0, arr.length - 1);
     }
