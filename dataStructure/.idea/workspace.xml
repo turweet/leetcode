@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb57ff25-cfa4-41ee-a204-fe576e0a2b79" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/medium/array/SpiralMatrix.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/hard/binarysearch/MedianOfTwoSortedArrays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/medium/tree/BSTIterator.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/base/sort/QuickSort.java" afterPath="$PROJECT_DIR$/src/base/sort/QuickSort.java" />
+      <change beforePath="$PROJECT_DIR$/src/medium/tree/LevelOrder.java" afterPath="$PROJECT_DIR$/src/medium/tree/LevelOrder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,46 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Vector2D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/design/Vector2D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Permutations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/backtrack/Permutations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LengthOfLongestSubstring.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/arraystring/LengthOfLongestSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopKFrequent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/medium/arraystring/TopKFrequent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,14 +30,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpiralMatrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SpiralMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/medium/array/SpiralMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+            <state relative-caret-position="189">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedianOfTwoSortedArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hard/binarysearch/MedianOfTwoSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelOrder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/medium/tree/LevelOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSTIterator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/medium/tree/BSTIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#980#981#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,22 +109,9 @@
         <entry file="file://$PROJECT_DIR$/src/beginer/bit/IPtoCIDR.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="2420" column="20" lean-forward="false" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
-              <folding>
-                <element signature="e#94598#94599#0" expanded="true" />
-                <element signature="e#94636#94637#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,10 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/base/graph/GraphImpl_adjMatrix.java" />
-        <option value="$PROJECT_DIR$/src/base/graph/graphImplAdjMatrix.java" />
-        <option value="$PROJECT_DIR$/src/base/graph/GraphImplAdjMatrix.java" />
-        <option value="$PROJECT_DIR$/src/base/graph/GraphImplAdjList.java" />
         <option value="$PROJECT_DIR$/src/medium/dp/LengthOfLIS.java" />
         <option value="$PROJECT_DIR$/src/medium/array/SearchA2DMatrix.java" />
         <option value="$PROJECT_DIR$/src/base/concurrent/MyThreadPrinter2.java" />
@@ -216,6 +203,10 @@
         <option value="$PROJECT_DIR$/src/medium/arraystring/TopKFrequent.java" />
         <option value="$PROJECT_DIR$/src/base/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/medium/array/SpiralMatrix.java" />
+        <option value="$PROJECT_DIR$/src/hard/binarysearch/MedianOfTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/medium/tree/LevelOrder.java" />
+        <option value="$PROJECT_DIR$/src/medium/tree/BinarySearchTreeIterator.java" />
+        <option value="$PROJECT_DIR$/src/medium/tree/BSTIterator.java" />
       </list>
     </option>
   </component>
@@ -266,6 +257,12 @@
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -273,21 +270,7 @@
               <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="backtrack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataStructure" type="b2602c69:ProjectViewProjectNode" />
@@ -304,7 +287,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="mergeso&#9;PSI&#9;JAVA://base.sort.MergeSort&#10;quick&#9;PSI&#9;JAVA://base.sort.QuickSort&#10;topkfre&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/arraystring/TopKFrequent.java&#10;llonges&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/arraystring/LengthOfLongestSubstring.java&#10;per&#9;PSI&#9;JAVA://medium.backtrack.Permutations&#10;2d&#9;PSI&#9;JAVA://medium.design.Vector2D&#10;reverin&#9;PSI&#9;JAVA://beginer.string.ReverseInt&#10;longestcomm&#9;PSI&#9;JAVA://beginer.string.LongestCommonPrefix&#10;twosum&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/TwoSum.java&#10;sametr&#9;PSI&#9;JAVA://beginer.dfs.SameTree&#10;symm&#9;PSI&#9;JAVA://beginer.tree.IsSymmetric&#10;low&#9;PSI&#9;JAVA://beginer.tree.LowestCommonAncestor&#10;valid&#9;PSI&#9;JAVA://medium.tree.IsValidBST&#10;rob&#9;PSI&#9;JAVA://beginer.dp.Rob&#10;longest&#9;PSI&#9;JAVA://medium.dp.LongestIncreasingSubsequence&#10;reversestring&#9;PSI&#9;JAVA://beginer.string.ReverseString&#10;lengthof&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/arraystring/LengthOfLongestSubstring.java&#10;gene&#9;PSI&#9;JAVA://medium.backtrack.GenerateParenthesis&#10;firstUniqChar&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/string/FirstUniqChar.java&#10;ispa&#9;PSI&#9;JAVA://beginer.list.IsPalindrome&#10;deleteno&#9;PSI&#9;JAVA://beginer.list.DeleteNode&#10;removen&#9;PSI&#9;JAVA://beginer.list.RemoveNthFromEnd_attention&#10;has&#9;PSI&#9;JAVA://beginer.list.HasCycle&#10;inter&#9;PSI&#9;JAVA://beginer.array.Intersect&#10;isan&#9;PSI&#9;JAVA://beginer.string.IsAnagram&#10;firstu&#9;PSI&#9;JAVA://beginer.string.FirstUniqChar&#10;singlenu&#9;PSI&#9;JAVA://beginer.array.SingleNumber&#10;topkfr&#9;PSI&#9;JAVA://medium.arraystring.TopKFrequent&#10;leng&#9;PSI&#9;JAVA://medium.arraystring.LengthOfLongestSubstring&#10;climb&#9;PSI&#9;JAVA://beginer.dp.MinCostClimbingStairs&#10;contain&#9;PSI&#9;JAVA://beginer.array.ContainsDuplicateII&#10;condup&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/ContainsDuplicate.java&#10;setzero&#9;PSI&#9;JAVA://medium.arraystring.MatrixSetZeroes&#10;sortco&#9;PSI&#9;JAVA://medium.array.SortColors&#10;missing&#9;PSI&#9;JAVA://beginer.other.MissingNubmer&#10;rotate&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/ArrayRotate.java&#10;buildtr&#9;PSI&#9;JAVA://medium.tree.BuildTree&#10;subsets&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/array/Subsets.java&#10;unique&#9;PSI&#9;JAVA://medium.dp.uniquePaths&#10;findmin&#9;PSI&#9;JAVA://medium.arraystring.FindMin&#10;findmi&#9;PSI&#9;JAVA://hard.array.FindMinimumInRotatedSortedArrayII&#10;searchinser&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/search/SearchInsertPosition.java&#10;majo&#9;PSI&#9;JAVA://beginer.array.MajorityElement&#10;plus&#9;PSI&#9;JAVA://beginer.array.PlusOne&#10;maxpro&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/MaxProfit.java&#10;removedu&#9;PSI&#9;JAVA://beginer.array.RemoveDuplicatesfromSortedArray&#10;movezer&#9;PSI&#9;JAVA://beginer.array.MoveZeroes&#10;merge&#9;PSI&#9;JAVA://beginer.sortNsearch.Merge&#10;mergesort&#9;PSI&#9;JAVA://base.sort.MergeSort&#10;maxpr&#9;PSI&#9;JAVA://beginer.array.MaxProfit" />
+    <property name="SearchEverywhereHistoryKey" value="levelo&#9;PSI&#9;JAVA://medium.tree.LevelOrder&#10;mergeso&#9;PSI&#9;JAVA://base.sort.MergeSort&#10;quick&#9;PSI&#9;JAVA://base.sort.QuickSort&#10;topkfre&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/arraystring/TopKFrequent.java&#10;llonges&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/arraystring/LengthOfLongestSubstring.java&#10;per&#9;PSI&#9;JAVA://medium.backtrack.Permutations&#10;2d&#9;PSI&#9;JAVA://medium.design.Vector2D&#10;reverin&#9;PSI&#9;JAVA://beginer.string.ReverseInt&#10;longestcomm&#9;PSI&#9;JAVA://beginer.string.LongestCommonPrefix&#10;twosum&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/TwoSum.java&#10;sametr&#9;PSI&#9;JAVA://beginer.dfs.SameTree&#10;symm&#9;PSI&#9;JAVA://beginer.tree.IsSymmetric&#10;low&#9;PSI&#9;JAVA://beginer.tree.LowestCommonAncestor&#10;valid&#9;PSI&#9;JAVA://medium.tree.IsValidBST&#10;rob&#9;PSI&#9;JAVA://beginer.dp.Rob&#10;longest&#9;PSI&#9;JAVA://medium.dp.LongestIncreasingSubsequence&#10;reversestring&#9;PSI&#9;JAVA://beginer.string.ReverseString&#10;lengthof&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/arraystring/LengthOfLongestSubstring.java&#10;gene&#9;PSI&#9;JAVA://medium.backtrack.GenerateParenthesis&#10;firstUniqChar&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/string/FirstUniqChar.java&#10;ispa&#9;PSI&#9;JAVA://beginer.list.IsPalindrome&#10;deleteno&#9;PSI&#9;JAVA://beginer.list.DeleteNode&#10;removen&#9;PSI&#9;JAVA://beginer.list.RemoveNthFromEnd_attention&#10;has&#9;PSI&#9;JAVA://beginer.list.HasCycle&#10;inter&#9;PSI&#9;JAVA://beginer.array.Intersect&#10;isan&#9;PSI&#9;JAVA://beginer.string.IsAnagram&#10;firstu&#9;PSI&#9;JAVA://beginer.string.FirstUniqChar&#10;singlenu&#9;PSI&#9;JAVA://beginer.array.SingleNumber&#10;topkfr&#9;PSI&#9;JAVA://medium.arraystring.TopKFrequent&#10;leng&#9;PSI&#9;JAVA://medium.arraystring.LengthOfLongestSubstring&#10;climb&#9;PSI&#9;JAVA://beginer.dp.MinCostClimbingStairs&#10;contain&#9;PSI&#9;JAVA://beginer.array.ContainsDuplicateII&#10;condup&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/ContainsDuplicate.java&#10;setzero&#9;PSI&#9;JAVA://medium.arraystring.MatrixSetZeroes&#10;sortco&#9;PSI&#9;JAVA://medium.array.SortColors&#10;missing&#9;PSI&#9;JAVA://beginer.other.MissingNubmer&#10;rotate&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/ArrayRotate.java&#10;buildtr&#9;PSI&#9;JAVA://medium.tree.BuildTree&#10;subsets&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/medium/array/Subsets.java&#10;unique&#9;PSI&#9;JAVA://medium.dp.uniquePaths&#10;findmin&#9;PSI&#9;JAVA://medium.arraystring.FindMin&#10;findmi&#9;PSI&#9;JAVA://hard.array.FindMinimumInRotatedSortedArrayII&#10;searchinser&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/search/SearchInsertPosition.java&#10;majo&#9;PSI&#9;JAVA://beginer.array.MajorityElement&#10;plus&#9;PSI&#9;JAVA://beginer.array.PlusOne&#10;maxpro&#9;FILE&#9;file:///Users/wangling/code/my/leetcode/dataStructure/src/beginer/array/MaxProfit.java&#10;removedu&#9;PSI&#9;JAVA://beginer.array.RemoveDuplicatesfromSortedArray&#10;movezer&#9;PSI&#9;JAVA://beginer.array.MoveZeroes&#10;merge&#9;PSI&#9;JAVA://beginer.sortNsearch.Merge&#10;mergesort&#9;PSI&#9;JAVA://base.sort.MergeSort" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -609,7 +592,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -634,7 +616,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47496423" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31688127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31688127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -709,7 +691,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="74" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -742,52 +724,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/beginer/dp/MaxProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/array/MaxProfit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/array/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="61" column="25" lean-forward="false" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/array/MajorityElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/beginer/search/SearchInsertPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hard/array/FindMinimumInRotatedSortedArrayII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1083,8 +1019,8 @@
         <state relative-caret-position="356">
           <caret line="2420" column="20" lean-forward="false" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
           <folding>
-            <element signature="e#94598#94599#0" expanded="true" />
-            <element signature="e#94636#94637#0" expanded="true" />
+            <element signature="e#94598#94599#0" expanded="false" />
+            <element signature="e#94636#94637#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1108,7 +1044,7 @@
     <entry file="file://$PROJECT_DIR$/src/medium/backtrack/Permutations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1116,7 +1052,7 @@
     <entry file="file://$PROJECT_DIR$/src/medium/arraystring/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1159,7 +1095,7 @@
     <entry file="file://$PROJECT_DIR$/src/beginer/bit/IPtoCIDR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1168,10 +1104,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/medium/array/SpiralMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+        <state relative-caret-position="189">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hard/binarysearch/MedianOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/tree/LevelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="44" column="19" lean-forward="false" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/medium/tree/BSTIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#980#981#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -16,31 +16,32 @@ public class LevelOrder {
      * @return
      */
     public List<List<Integer>> levelOrder(TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<>();
-        List<List<Integer>> result = new ArrayList<>();
+        List<List<Integer>> ans = new ArrayList<>();
         if (root == null) {
-            return result;
+            return ans;
         }
         int levelNum = 1;
-        queue.offer(root);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
         while (!queue.isEmpty()) {
-            int temp = levelNum;
+            int tempNum = levelNum;
             levelNum = 0;
-            List<Integer> level = new ArrayList<>();
-            for (int i = 0; i < temp; i++) {
-                TreeNode node = queue.poll();
-                level.add(node.val);
+            List<Integer> list = new ArrayList<>(); //每次都需要new出对象不能在外边申请然后每次clear
+            while (tempNum > 0) {
+                TreeNode node = queue.remove();
+                list.add(node.val);
                 if (node.left != null) {
-                    queue.offer(node.left);
+                    queue.add(node.left);
                     levelNum++;
                 }
                 if (node.right != null) {
-                    queue.offer(node.right);
+                    queue.add(node.right);
                     levelNum++;
                 }
+                tempNum--;
             }
-            result.add(level);
+            ans.add(list);
         }
-        return result;
+        return ans;
     }
 }
