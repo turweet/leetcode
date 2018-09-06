@@ -1,6 +1,8 @@
 package beginer.backtracking;
 
+
 import java.util.*;
+import java.util.function.UnaryOperator;
 
 /**
  * https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
@@ -19,41 +21,39 @@ public class LetterCombinationsOfPhoneNumber {
         map.put(8, Arrays.asList('t', 'u', 'v'));
         map.put(9, Arrays.asList('w', 'x', 'y', 'z'));
 
-        List<List<Character>> lists = new ArrayList<>();
+        List<String> lists = new ArrayList<>();
         for (int i = 0; i < digits.length(); i++) {
             int x = Character.getNumericValue(digits.charAt(i));
             helper(lists, map.get(x));
         }
-        List<String> ans = new ArrayList<>();
-        for (List<Character> list : lists) {
-            StringBuilder stringBuilder = new StringBuilder();
-            for (Character aList : list) {
-                stringBuilder.append(aList);
-            }
-            ans.add(stringBuilder.toString());
-        }
-        return ans;
+        return lists;
     }
 
-    private void helper(List<List<Character>> lists, List<Character> adds) {
+    private void helper(List<String> lists, List<Character> adds) {
         if (lists.size() == 0) {
             for (Character add : adds) {
-                List<Character> characters = new ArrayList<>();
-                characters.add(add);
-                lists.add(characters);
+                lists.add(String.valueOf(add));
             }
             return;
         }
         int size = lists.size();
         for (int i = 0; i < size; i++) {
-            List<Character> toupdate = new ArrayList<>(lists.get(i));
+            String toUpdate = lists.get(i);
             for (int j = 0; j < adds.size(); j++) {
+                String toAdd = toUpdate + adds.get(j);
                 if (j == 0) {
-                    lists.get(i).add(adds.get(j));
+                    lists.replaceAll(new UnaryOperator<String>() {
+                        @Override
+                        public String apply(String s) {
+                            if (s.equals(toUpdate)) {
+                                return toAdd;
+                            } else {
+                                return s;
+                            }
+                        }
+                    });
                 } else {
-                    List<Character> toadd = new ArrayList<>(toupdate);
-                    toadd.add(adds.get(j));
-                    lists.add(toadd);
+                    lists.add(toAdd);
                 }
             }
         }
