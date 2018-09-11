@@ -2,15 +2,13 @@ package beginer.backtracking;
 
 
 import java.util.*;
-import java.util.function.UnaryOperator;
 
 /**
  * https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/
  */
 public class LetterCombinationsOfPhoneNumber {
 
-
-    public List<String> letterCombinations(String digits) {
+    public List<String> letterCombinations_firstComeOut(String digits) {
         Map<Integer, List<Character>> map = new HashMap<>();
         map.put(2, Arrays.asList('a', 'b', 'c'));
         map.put(3, Arrays.asList('d', 'e', 'f'));
@@ -20,7 +18,6 @@ public class LetterCombinationsOfPhoneNumber {
         map.put(7, Arrays.asList('p', 'q', 'r', 's'));
         map.put(8, Arrays.asList('t', 'u', 'v'));
         map.put(9, Arrays.asList('w', 'x', 'y', 'z'));
-
         List<String> lists = new ArrayList<>();
         for (int i = 0; i < digits.length(); i++) {
             int x = Character.getNumericValue(digits.charAt(i));
@@ -42,14 +39,11 @@ public class LetterCombinationsOfPhoneNumber {
             for (int j = 0; j < adds.size(); j++) {
                 String toAdd = toUpdate + adds.get(j);
                 if (j == 0) {
-                    lists.replaceAll(new UnaryOperator<String>() {
-                        @Override
-                        public String apply(String s) {
-                            if (s.equals(toUpdate)) {
-                                return toAdd;
-                            } else {
-                                return s;
-                            }
+                    lists.replaceAll(s -> {
+                        if (s.equals(toUpdate)) {
+                            return toAdd;
+                        } else {
+                            return s;
                         }
                     });
                 } else {
@@ -61,7 +55,7 @@ public class LetterCombinationsOfPhoneNumber {
 
     public static void main(String[] args) {
         LetterCombinationsOfPhoneNumber letterCombinationsOfPhoneNumber = new LetterCombinationsOfPhoneNumber();
-        letterCombinationsOfPhoneNumber.letterCombinations("234");
+        letterCombinationsOfPhoneNumber.letterCombinations_firstComeOut("234");
         System.out.println("haha");
     }
 
