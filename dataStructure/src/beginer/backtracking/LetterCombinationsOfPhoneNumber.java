@@ -8,6 +8,25 @@ import java.util.*;
  */
 public class LetterCombinationsOfPhoneNumber {
 
+    public List<String> letterCombinations(String digits) {
+        String[] mapping = new String[]{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+        LinkedList<String> queue = new LinkedList<>();
+        if (digits.isEmpty()) {
+            return queue;
+        }
+        queue.add("");
+        for (int i = 0; i < digits.length(); i++) {
+            while (queue.peek().length() == i) {
+                String temp = queue.remove();
+                char[] chars = mapping[Character.getNumericValue(digits.charAt(i))].toCharArray();
+                for (int j = 0; j < chars.length; j++) {
+                    queue.add(temp + chars[j]);
+                }
+            }
+        }
+        return queue;
+    }
+
     public List<String> letterCombinations_firstComeOut(String digits) {
         Map<Integer, List<Character>> map = new HashMap<>();
         map.put(2, Arrays.asList('a', 'b', 'c'));
@@ -39,7 +58,7 @@ public class LetterCombinationsOfPhoneNumber {
             for (int j = 0; j < adds.size(); j++) {
                 String toAdd = toUpdate + adds.get(j);
                 if (j == 0) {
-                    lists.replaceAll(s -> {
+                    lists.replaceAll(s -> { //因为这个replace的存在，导致时间复杂度多了一层，目前只能打败39%的提交
                         if (s.equals(toUpdate)) {
                             return toAdd;
                         } else {
@@ -55,7 +74,7 @@ public class LetterCombinationsOfPhoneNumber {
 
     public static void main(String[] args) {
         LetterCombinationsOfPhoneNumber letterCombinationsOfPhoneNumber = new LetterCombinationsOfPhoneNumber();
-        letterCombinationsOfPhoneNumber.letterCombinations_firstComeOut("234");
+        letterCombinationsOfPhoneNumber.letterCombinations("23");
         System.out.println("haha");
     }
 
